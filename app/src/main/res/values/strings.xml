@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Sesion5</string>
+    <string name="scholarship">Escolaridad</string>
+    <string name="edit_name">Ingrese su Nombre</string>
+    <string name="edit_phone">Ingrese su Telefono</string>
+    <string name="man">Masculino</string>
+    <string name="women">Femenino</string>
+    <string name="book">Libro Favorito</string>
+    <string-array name="grades">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
 </resources>
