@@ -6,11 +6,20 @@
     <string name="man">Masculino</string>
     <string name="women">Femenino</string>
     <string name="book">Libro Favorito</string>
+    <string name="sport">Practica Deporte</string>
+    <string name="clean">Limpiar</string>
     <string-array name="grades">
         <item>Bachillerato</item>
         <item>Técnico</item>
         <item>Licenciatura</item>
         <item>Maestría</item>
         <item>Doctorado</item>
+    </string-array>
+    <string-array name="books">
+        <item>Eragon</item>
+        <item>Eldest</item>
+        <item>Brisingr</item>
+        <item>Legacy</item>
+        <item>The lord of the Ring</item>
     </string-array>
 </resources>

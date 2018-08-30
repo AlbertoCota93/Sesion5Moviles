@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -26,7 +25,7 @@
         android:id="@+id/main_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        ></Spinner>
+        />
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +36,7 @@
             android:text="@string/women"
             />
         <RadioButton
-            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/man"
@@ -50,4 +49,25 @@
         android:layout_height="wrap_content"
         android:text="@string/book"
         android:textColor="@color/colorBlack"/>
+    <AutoCompleteTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_autocomplete"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sport"
+        android:textSize="15dp"
+        android:textColor="@color/colorBlack"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=""
+        android:text="@string/clean"/>
 </LinearLayout>
