@@ -31,15 +31,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
+            android:id="@+id/activity_radio_women"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/women"
+            android:onClick="onRadioButtonClicked"
             />
         <RadioButton
+            android:id="@+id/activity_radio_men"
             android:layout_marginStart="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/man"
+            android:onClick="onRadioButtonClicked"
             />
 
     </RadioGroup>
@@ -59,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sport"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textColor="@color/colorBlack"/>
     <Space
         android:layout_width="match_parent"
@@ -68,6 +72,5 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=""
         android:text="@string/clean"/>
 </LinearLayout>
