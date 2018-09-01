@@ -7,11 +7,13 @@
     android:layout_margin="15dp"
     tools:context=".ActivityMain">
 <EditText
+    android:id="@+id/activity_name"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:hint="@string/edit_name"
     android:inputType="text"/>
 <EditText
+    android:id="@+id/activity_phone"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:hint="@string/edit_phone"
@@ -60,16 +62,19 @@
         android:id="@+id/activity_autocomplete"
         android:layout_marginTop="10dp"/>
     <CheckBox
+        android:id="@+id/activity_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sport"
         android:textSize="15sp"
-        android:textColor="@color/colorBlack"/>
+        android:textColor="@color/colorBlack"
+        android:onClick="onCheckboxClicked"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
     <Button
+        android:id="@+id/activity_clean"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/clean"/>
