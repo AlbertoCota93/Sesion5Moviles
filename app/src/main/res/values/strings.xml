@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Sesion5</string>
+    <string name="scholarship">Escolaridad</string>
+    <string name="edit_name">Ingrese su Nombre</string>
+    <string name="edit_phone">Ingrese su Telefono</string>
+    <string name="man">Masculino</string>
+    <string name="women">Femenino</string>
+    <string name="book">Libro Favorito</string>
+    <string name="sport">Practica Deporte</string>
+    <string name="clean">Limpiar</string>
+    <string name="save">Save</string>
+    <string-array name="grades">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+    <string-array name="books">
+        <item>Eragon</item>
+        <item>Eldest</item>
+        <item>Brisingr</item>
+        <item>Legacy</item>
+        <item>The lord of the Rings</item>
+    </string-array>
 </resources>

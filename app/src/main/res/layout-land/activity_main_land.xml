@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="15dp"
-    tools:context=".ActivityMain">
-<EditText
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:hint="@string/edit_name"
-    android:inputType="text"/>
-<EditText
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:hint="@string/edit_phone"
-    android:inputType="phone"/>
+    tools:context=".ActivityMain"
+    >
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/edit_name"
+        android:inputType="text"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/edit_phone"
+        android:inputType="phone"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,19 +34,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/activity_radio_women"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/women"
-            android:onClick="onRadioButtonClicked"
             />
         <RadioButton
-            android:id="@+id/activity_radio_men"
             android:layout_marginStart="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/man"
-            android:onClick="onRadioButtonClicked"
             />
 
     </RadioGroup>
@@ -63,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sport"
-        android:textSize="15sp"
+        android:textSize="15dp"
         android:textColor="@color/colorBlack"/>
     <Space
         android:layout_width="match_parent"
@@ -73,4 +72,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/clean"/>
+
 </LinearLayout>
