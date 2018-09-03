@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,7 +38,7 @@ public class ActivityMain extends AppCompatActivity {
         nombre = findViewById(R.id.activity_name);
         telefono = findViewById(R.id.activity_phone);
         clean = findViewById(R.id.activity_clean);
-        deporte = findViewById(R.id.activity_checkbox);
+        deporte =(CheckBox) findViewById(R.id.activity_checkbox);
 
         spinner = findViewById(R.id.main_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -75,7 +76,11 @@ public class ActivityMain extends AppCompatActivity {
         deporte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onCheckboxClicked(v);
+                if (deporte.isChecked()){
+                    sport = "Si";
+                } else{
+                    sport = "No";
+                }
             }
         });
 
@@ -112,17 +117,6 @@ public class ActivityMain extends AppCompatActivity {
                     genere = "";
         }
     }
-    public void onCheckboxClicked (View view){
-        boolean check = ((CheckBox)view).isChecked();
-
-        switch (view.getId()){
-            case R.id.activity_checkbox:
-                if(check)
-                    sport = "Si";
-            default:
-                sport = "No";
-        }
-    }
 
     public void comeClean(){
         nombre.setText("");
@@ -131,6 +125,7 @@ public class ActivityMain extends AppCompatActivity {
         telefono.setError(null);
         libros.setText("");
         libros.setError(null);
+        spinner.setSelection(0);
     }
 
 }
