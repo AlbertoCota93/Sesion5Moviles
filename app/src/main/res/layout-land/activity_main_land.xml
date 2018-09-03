@@ -44,7 +44,7 @@
                     />
                 <RadioButton
                     android:id="@+id/activity_radio_men"
-                    android:layout_marginStart="50dp"
+                    android:layout_marginStart="@dimen/start_margin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/man"
@@ -53,7 +53,7 @@
 
             </RadioGroup>
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/spacing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/book"
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/activity_autocomplete"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="@dimen/spacing"/>
             <CheckBox
                 android:id="@+id/activity_checkbox"
                 android:layout_width="wrap_content"
