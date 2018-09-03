@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/student_layout"
+    android:background="@color/colorLightBlack">
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/student_phone"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/student_scholarship"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/student_book"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/student_gender"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/student_sport"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content" />
+</LinearLayout>
